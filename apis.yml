@@ -1,8 +1,25 @@
 aid: trion-worlds
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trion-worlds.png
 name: Trion Worlds
-description: 'Trion Worlds is a company surfaced as a portfolio company of trinity-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: gaming. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Trion Worlds was an American video game developer and MMO publisher founded in 2006 in
+  Redwood City, California by Lars Buttler and Jon Van Caneghem, and backed early by Trinity Ventures
+  among others. It developed and operated massively multiplayer titles including Rift, Defiance, Trove
+  and Atlas Reactor, published ArcheAge in Western markets, and ran the Glyph game-distribution client.
+  The company was acquired by German publisher Gamigo in October 2018 and disbanded shortly after; its
+  games, the Glyph platform and the trionworlds.com domain are now operated by Gamigo. Trion Worlds
+  never published a public developer API or developer program, so this network profile carries company
+  identity and domain-security signals only. Surfaced as a portfolio company of Trinity Ventures.'
 url: https://raw.githubusercontent.com/api-evangelist/trion-worlds/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +29,26 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Gaming
+- Games
+- Video Games
+- MMO
+- Online Games
+- Entertainment
 apis: []
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+common:
+- type: Website
+  url: https://www.trionworlds.com/
+- type: DomainSecurity
+  url: security/trion-worlds-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
